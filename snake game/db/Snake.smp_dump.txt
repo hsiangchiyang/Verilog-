@@ -1,0 +1,8 @@
+
+State Machine - |Snake|control:fsm|current_state
+Name current_state.SNAKE_MOVES_UP current_state.SNAKE_MOVES_LEFT current_state.SNAKE_MOVES_RIGHT current_state.RESET current_state.SNAKE_MOVES_DOWN 
+current_state.RESET 0 0 0 0 0 
+current_state.SNAKE_MOVES_RIGHT 0 0 1 1 0 
+current_state.SNAKE_MOVES_LEFT 0 1 0 1 0 
+current_state.SNAKE_MOVES_UP 1 0 0 1 0 
+current_state.SNAKE_MOVES_DOWN 0 0 0 1 1 
